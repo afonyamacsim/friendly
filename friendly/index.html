@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.css" rel="stylesheet" media="all"
+        onload="this.media='all'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/scrol.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="header-top__row">
+                <a href="index.html" class="header-logo">
+                    <img src="img/logo.svg" alt="">
+                </a>
+                <!-- <div class="header-center">
+                    <svg width="40" height="14" viewBox="0 0 40 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="40" height="2" fill="#1D1D1D" />
+                        <rect x="20" y="12" width="20" height="2" fill="#1D1D1D" />
+                    </svg>
+                </div> -->
+                <ul class="header-menu-list">
+                    <li><a href="#project">проекты</a></li>
+                    <li><a href="#">агенство</a></li>
+                    <li><a href="#spoler">услуги</a></li>
+                </ul>
+                <div class="header-right">
+                    <!-- <div class="header-center">
+                        <svg width="40" height="14" viewBox="0 0 40 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="40" height="2" fill="inherit" />
+                            <rect x="20" y="12" width="20" height="2" fill="inherit" />
+                        </svg>
+                    </div> -->
+                    <a href="#" class="header-menu-btn">
+                        Обсудить проект
+                    </a>
+                </div>
+                <div class="burger-menu">
+                    <div class="header-logo-burger">
+                        <a href="#" class="header-logo-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                    <div class="hidden-menu">
+                        <div class="header__menu">
+                            <ul class="hidden-menu-list">
+                                <li><a href="#project">проекты</a></li>
+                                <li><a href="#">агенство</a></li>
+                                <li><a href="#spoler">услуги</a></li>
+                            </ul>
+                            <div class="hidden-menu-bottom">
+                                <!-- <div class="hidden-menu-contact">
+                                    <a href="tel:+79606613162" class="header-tel">
+                                        <svg width="18" height="17" viewBox="0 0 18 17" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M2.622 0.911012C3.64521 -0.112198 5.3024 -0.0647079 6.32295 0.95584L8.02648 2.65937C9.04703 3.67992 9.09451 5.33711 8.07131 6.36032L7.83508 6.59655C7.6571 6.77453 7.63792 7.06311 7.80709 7.26811C8.16362 7.70016 8.54605 8.12814 8.95893 8.54103C9.37182 8.95391 9.7998 9.33634 10.2318 9.69287C10.4368 9.86204 10.7254 9.84286 10.9034 9.66488L11.1396 9.42865C12.1628 8.40544 13.82 8.45293 14.8406 9.47348L16.5441 11.177C17.5647 12.1976 17.6122 13.8547 16.5889 14.878L15.4891 15.9778C14.3714 17.0955 12.5428 17.0051 10.7637 16.3523C8.9291 15.6792 6.88165 14.3259 5.02786 12.4721C3.17407 10.6183 1.82079 8.57086 1.14765 6.73623C0.494891 4.95714 0.404448 3.12857 1.52217 2.01084L2.622 0.911012ZM5.41638 1.86241C4.86888 1.3149 4.02389 1.32225 3.52856 1.81758L2.42874 2.9174C1.87608 3.47006 1.73522 4.61558 2.35127 6.29461C2.94694 7.9181 4.18169 9.8128 5.93442 11.5655C7.68716 13.3183 9.58186 14.553 11.2054 15.1487C12.8844 15.7647 14.0299 15.6239 14.5826 15.0712L15.6824 13.9714C16.1777 13.4761 16.1851 12.6311 15.6376 12.0836L13.934 10.38C13.3865 9.83254 12.5415 9.83989 12.0462 10.3352L11.81 10.5714C11.1681 11.2133 10.134 11.2744 9.41584 10.6817C8.95741 10.3034 8.49843 9.89366 8.05237 9.44759C7.6063 9.00152 7.19652 8.54255 6.81823 8.08412C6.22557 7.36593 6.28661 6.33188 6.92851 5.68998L7.16474 5.45375C7.66007 4.95843 7.66742 4.11344 7.11991 3.56593L5.41638 1.86241Z"
+                                                fill="#EAC290" />
+                                        </svg>
+                                        +7 960 661 31 62
+                                    </a>
+                                </div>
+                                <ul class="hidden-menu-social">
+                                    <li>
+                                        <a href="https://vk.com/prezenthaus">
+                                            <svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M18.1698 22C13.0449 22 10.1218 18.6216 10 13H12.5671C12.6515 17.1261 14.544 18.8739 16.0431 19.2342V13H18.4604V16.5586C19.9407 16.4054 21.4958 14.7838 22.0205 13H24.4378C24.0349 15.1982 22.3484 16.8198 21.1492 17.4865C22.3484 18.027 24.2692 19.4414 25 22H22.3391C21.7676 20.2883 20.3436 18.964 18.4604 18.7838V22H18.1698Z"
+                                                    fill="#EAC290" />
+                                                <rect x="0.5" y="0.5" width="34" height="34" rx="17"
+                                                    stroke="url(#paint0_linear_126_10892)" />
+                                                <defs>
+                                                    <linearGradient id="paint0_linear_126_10892" x1="17.5" y1="0" x2="17.5"
+                                                        y2="35" gradientUnits="userSpaceOnUse">
+                                                        <stop stop-color="#C9A784" />
+                                                        <stop offset="1" stop-color="#9D7650" />
+                                                    </linearGradient>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/sutkitmb/">
+                                            <svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M13.7222 9C11.1184 9 9 11.1184 9 13.7222V21.2778C9 23.8816 11.1184 26 13.7222 26H21.2778C23.8816 26 26 23.8816 26 21.2778V13.7222C26 11.1184 23.8816 9 21.2778 9H13.7222ZM13.7222 10.8889H21.2778C22.8399 10.8889 24.1111 12.1601 24.1111 13.7222V21.2778C24.1111 22.8399 22.8399 24.1111 21.2778 24.1111H13.7222C12.1601 24.1111 10.8889 22.8399 10.8889 21.2778V13.7222C10.8889 12.1601 12.1601 10.8889 13.7222 10.8889ZM22.2222 11.8333C21.9717 11.8333 21.7315 11.9328 21.5544 12.11C21.3773 12.2871 21.2778 12.5273 21.2778 12.7778C21.2778 13.0283 21.3773 13.2685 21.5544 13.4456C21.7315 13.6227 21.9717 13.7222 22.2222 13.7222C22.4727 13.7222 22.7129 13.6227 22.89 13.4456C23.0672 13.2685 23.1667 13.0283 23.1667 12.7778C23.1667 12.5273 23.0672 12.2871 22.89 12.11C22.7129 11.9328 22.4727 11.8333 22.2222 11.8333ZM17.5 12.7778C14.8962 12.7778 12.7778 14.8962 12.7778 17.5C12.7778 20.1038 14.8962 22.2222 17.5 22.2222C20.1038 22.2222 22.2222 20.1038 22.2222 17.5C22.2222 14.8962 20.1038 12.7778 17.5 12.7778ZM17.5 14.6667C19.0621 14.6667 20.3333 15.9379 20.3333 17.5C20.3333 19.0621 19.0621 20.3333 17.5 20.3333C15.9379 20.3333 14.6667 19.0621 14.6667 17.5C14.6667 15.9379 15.9379 14.6667 17.5 14.6667Z"
+                                                    fill="#EAC290" />
+                                                <rect x="0.5" y="0.5" width="34" height="34" rx="17"
+                                                    stroke="url(#paint0_linear_126_10894)" />
+                                                <defs>
+                                                    <linearGradient id="paint0_linear_126_10894" x1="17.5" y1="0" x2="17.5"
+                                                        y2="35" gradientUnits="userSpaceOnUse">
+                                                        <stop stop-color="#C9A784" />
+                                                        <stop offset="1" stop-color="#9D7650" />
+                                                    </linearGradient>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </li>
+    
+                                </ul> -->
+                                <a class="hidden-menu__btn" href="#">Обсудить проект</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="first">
+        <div class="container">
+            <div class="first-subtitle _anim_items">Дружелюбные во всем</div>
+            <div class="first-title _anim_items">Ваша смелая идея. <br>
+            Наше digital-решение</div>
+            <div class="first-list-wrap">
+                <div class="first-list">
+                    <a href="#" class="_anim_items">
+                        <img src="img/first-list1.svg" alt="">
+                    </a>
+                    <a href="#" class="_anim_items delay__1">
+                        <img src="img/first-list2.svg" alt="">
+                    </a>
+                    <a href="#" class="_anim_items delay__2">
+                        <img src="img/first-list3.svg" alt="">
+                    </a>
+                    <a href="#" class="_anim_items delay__3">
+                        <img src="img/first-list4.svg" alt="">
+                    </a>
+                    <a href="#" class="_anim_items delay__4">
+                        <img src="img/first-list5.svg" alt="">
+                    </a>
+                    <a href="#" class="_anim_items delay__5">
+                        <img src="img/first-list6.svg" alt="">
+                    </a>
+                    <a href="#" class="_anim_items">
+                        <img src="img/first-list7.svg" alt="">
+                    </a>
+                    <a href="#" class="_anim_items delay__1">
+                        <img src="img/first-list8.svg" alt="">
+                    </a>
+                    <a href="#" class="_anim_items delay__2">
+                        <img src="img/first-list9.svg" alt="">
+                    </a>
+                    <a href="#" class="_anim_items delay__3">
+                        <img src="img/first-list10.svg" alt="">
+                    </a>
+                    <a href="#" class="_anim_items delay__4">
+                        <img src="img/first-list11.svg" alt="">
+                    </a>
+                    <a href="#" class="_anim_items delay__5">
+                        <span>
+                            <svg width="20" height="5" viewBox="0 0 20 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.372647 5V0.296H3.48065V5H0.372647ZM8.44288 5V0.296H11.5509V5H8.44288ZM16.5131 5V0.296H19.6211V5H16.5131Z"
+                                    fill="#377CFD" />
+                            </svg>
+                        </span>
+                        и еще десятки готовых проектов
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video">
+        <div class="containers">
+            <div class="video-box _anim_items scale">
+                <img src="img/video.png" alt="">
+                <button class="video-icon">
+                    <img src="img/video-icon.svg" alt="">
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="container">
+            <div class="services-sub _anim_items">УСЛУГИ</div>
+            <div class="services-text _anim_items">
+                Команда Friendly ориентируется на решение бизнес-задач. Мы анализируем целевую аудиторию и поведение пользователей,
+                подстраиваемся под требования рынка, создаем трендовй дизайн, а также поддерживаем продукт после релиза.
+            </div>
+            <div class="services-bottom">
+                <div class="services-list start-numb _anim_items">
+                    <div class="services-card">
+                        <div class="services-card-top">
+                            <span class="stat-number" data-n="50">50</span>
+                            <span>+</span>
+                        </div>
+                        <div class="services-card-info">Довольный клиент</div>
+                    </div>
+                    <div class="services-card">
+                        <div class="services-card-top">
+                            <span class="stat-number" data-n="50">50</span>
+                            <span>+</span>
+                        </div>
+                        <div class="services-card-info">Реализованных проектов</div>
+                    </div>
+                </div>
+                <div class="services-bottom-text _anim_items">Переработали меню проекта согласно главным рубрикам, поменяли внешний вид карточек новстей и выделили отдельным блоком
+                раздел с трансляцией</div>
+            </div>
+        </div>
+    </section>
+    <section class="spoler" id="spoler">
+        <div class="container">
+            <div class="accordion _anim_items">
+                <div class="accordion-item">
+                    <button id="accordion-button-1" aria-expanded="false">
+                        <span class="accordion-title"><b>01</b>
+                            UX/UI дизайн
+                        </span>
+                        <span class="icon" aria-hidden="true"></span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra
+                            suspendisse potenti.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion _anim_items">
+                <div class="accordion-item">
+                    <button id="accordion-button-2" aria-expanded="false">
+                        <span class="accordion-title"><b>02</b>
+                            Разработка
+                        </span>
+                        <span class="icon" aria-hidden="true"></span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra
+                            suspendisse potenti.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion _anim_items">
+                <div class="accordion-item">
+                    <button id="accordion-button-3" aria-expanded="false">
+                        <span class="accordion-title"><b>03</b>
+                            Техническая поддержка
+                        </span>
+                        <span class="icon" aria-hidden="true"></span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra
+                            suspendisse potenti.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion _anim_items">
+                <div class="accordion-item">
+                    <button id="accordion-button-4" aria-expanded="false">
+                        <span class="accordion-title"><b>04</b>
+                            Дополнительно
+                        </span>
+                        <span class="icon" aria-hidden="true"></span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra
+                            suspendisse potenti.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="project" id="project">
+        <div class="container">
+            <div class="project-list">
+                <div class="project-col">
+                    <a href="#" class="project-card _anim_items translate__left">
+                        <div class="project-card-img">
+                            <img src="img/project-card-img.png" alt="">
+                        </div>
+                        <div class="project-card-name">
+                            Инвест-портал для министерства культуры и туризма
+                        </div>
+                        <div class="project-card-bottom">
+                            <span>Разработка</span>
+                            <span>Веб-дизайн</span>
+                        </div>
+                    </a>
+                    <a href="#" class="project-card _anim_items translate__left">
+                        <div class="project-card-img">
+                            <img src="img/project-card-img3.png" alt="">
+                        </div>
+                        <div class="project-card-name">
+                            Современный и интерактивный сайт для сети кофеен pravdacoffe
+                        </div>
+                        <div class="project-card-bottom">
+                            <span>SMM</span>
+                            <span>Таргет</span>
+                        </div>
+                    </a>
+                    <a href="#" class="project-card _anim_items translate__left">
+                        <div class="project-card-img">
+                            <img src="img/project-card-img5.png" alt="">
+                        </div>
+                        <div class="project-card-name">
+                            Мойофис - всё для эффективной работы
+                        </div>
+                        <div class="project-card-bottom">
+                            <span>Разработка</span>
+                            <span>Веб-дизайн</span>
+                        </div>
+                    </a>
+                    <a href="#" class="project-card _anim_items translate__left">
+                        <div class="project-card-img">
+                            <img src="img/project-card-img7.png" alt="">
+                        </div>
+                        <div class="project-card-name">
+                            Skryptic - французкая франшиза
+                            квест-румов
+                        </div>
+                        <div class="project-card-bottom">
+                            <span>SMM</span>
+                            <span>Таргет</span>
+                        </div>
+                    </a>
+                    <a href="#" class="project-card _anim_items translate__left">
+                        <div class="project-card-img">
+                            <img src="img/project-card-img9.png" alt="">
+                        </div>
+                        <div class="project-card-name">
+                            Сайт халяльной продукции URUSSA и Anoor chiken
+                        </div>
+                        <div class="project-card-bottom">
+                            <span>Разработка</span>
+                            <span>Веб-дизайн</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-col">
+                    <a href="#" class="project-card _anim_items translate__right">
+                        <div class="project-card-img">
+                            <img src="img/project-card-img2.png" alt="">
+                        </div>
+                        <div class="project-card-name">
+                            Терминал подмосковных сайтов
+                        </div>
+                        <div class="project-card-bottom">
+                            <span>Разработка</span>
+                            <span>Веб-дизайн</span>
+                        </div>
+                    </a>
+                    <a href="#" class="project-card _anim_items translate__right">
+                        <div class="project-card-img">
+                            <img src="img/project-card-img4.png" alt="">
+                        </div>
+                        <div class="project-card-name">
+                            Редизайн новостного портала 360tv
+                        </div>
+                        <div class="project-card-bottom">
+                            <span>Контекстная реклама</span>
+                            <span>Google ads</span>
+                        </div>
+                    </a>
+                    <a href="#" class="project-card _anim_items translate__right">
+                        <div class="project-card-img">
+                            <img src="img/project-card-img6.png" alt="">
+                        </div>
+                        <div class="project-card-name">
+                            Mailion - корпоративная почта нового поколения
+                        </div>
+                        <div class="project-card-bottom">
+                            <span>Media production</span>
+                            <span>Таргет</span>
+                        </div>
+                    </a>
+                    <a href="#" class="project-card _anim_items translate__right">
+                        <div class="project-card-img">
+                            <img src="img/project-card-img8.png" alt="">
+                        </div>
+                        <div class="project-card-name">
+                            Корпоративный сайт юридической фирмы IPLS
+                        </div>
+                        <div class="project-card-bottom">
+                            <span>Контекстная реклама</span>
+                            <span>Google ads</span>
+                        </div>
+                    </a>
+                    <a href="#" class="project-card _anim_items translate__right">
+                        <div class="project-card-img">
+                            <img src="img/project-card-img10.png" alt="">
+                        </div>
+                        <div class="project-card-name">
+                            Радио подмосковья
+                        </div>
+                        <div class="project-card-bottom">
+                            <span>Media production</span>
+                            <span>Таргет</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="project-bottom">
+                <div class="project-circle _anim_items anim__2d">
+                    <span>...</span>
+                    и еще десятки готовых проектов
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slider">
+        <div class="sliders-box">
+            <div data-slider-id="slider-1" class="swiper sliders">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="img/slider-card2.png" class="slider-card" data-fancybox="gallery">
+                            <img src="img/slider-card2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="img/slider-card3.png" class="slider-card" data-fancybox="gallery">
+                            <img src="img/slider-card3.png" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="img/slider-card1.png" class="slider-card" data-fancybox="gallery">
+                            <img src="img/slider-card1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="img/slider-card4.png" class="slider-card" data-fancybox="gallery">
+                            <img src="img/slider-card4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="img/slider-card1.png" class="slider-card" data-fancybox="gallery">
+                            <img src="img/slider-card1.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+    
+        </div>
+    </section>
+    <section class="discussion">
+        <div class="container">
+            <div class="discussion-title _anim_items">Давайте обсудим ваш проект
+                <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M16.6829 22L21.0732 18.6752L15.6585 12.3087L24 10.328L22.1707 5.23473L14.2683 8.34727L14.8537 0H9.14634L9.65854 8.41801L1.82927 5.23473L0 10.4695L8.34146 12.4502L2.92683 18.6752L7.31707 22L12 15.1383L16.6829 22Z"
+                        fill="#1346FB" />
+                </svg>
+            </div>
+            <div class="discussion-btn _anim_items">
+                <a href="#">
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.5625 26H26V2" stroke="inherit" stroke-width="4" />
+                        <path d="M26 26L2 2" stroke="inherit" stroke-width="4" />
+                    </svg>
+                    hi@friendly.ws
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="footer-left">
+                    <div class="footer-left-top">
+                        Узнайте, чем мы можем быть полезны для вас.
+                        Заполните форму заказа нового проекта
+                        или напишите на
+                        <a href="#">hi@friendly.ws</a>
+                    </div>
+                    <div class="footer-left-bottom">
+                        Направляя свою заявку, резюме и иные персональные данные по указанным на сайте электронным адресам и телефонам, я даю
+                        своё согласие на обработку персональных данных. Узнать больше 
+                        <a href="#">о политике в сфере персональных данных</a>
+                    </div>
+                </div>
+                <div class="footer-center">
+                    <ul>
+                        <li><a href="#">hi@friendly.ws</a></li>
+                        <li>
+                            <a href="#">
+                                Вконтакте
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.1875 1H9V9" stroke="#3F69FF" stroke-width="2" />
+                                    <path d="M9 1L1 9" stroke="#3F69FF" stroke-width="2" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">Behance
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.1875 1H9V9" stroke="#3F69FF" stroke-width="2" />
+                                    <path d="M9 1L1 9" stroke="#3F69FF" stroke-width="2" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">Dribbble
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.1875 1H9V9" stroke="#3F69FF" stroke-width="2" />
+                                    <path d="M9 1L1 9" stroke="#3F69FF" stroke-width="2" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-right">
+                    <ul>
+                        <li><a href="#">+7 495 414 24 14</a></li>
+                        <li>
+                            <a href="#">Telegram
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.1875 1H9V9" stroke="#3F69FF" stroke-width="2" />
+                                    <path d="M9 1L1 9" stroke="#3F69FF" stroke-width="2" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">WhatsApp
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.1875 1H9V9" stroke="#3F69FF" stroke-width="2" />
+                                    <path d="M9 1L1 9" stroke="#3F69FF" stroke-width="2" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/scrol.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
